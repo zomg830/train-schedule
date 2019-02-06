@@ -1,4 +1,4 @@
-h1, th, td, strong, label, button{
+h1, th, td, strong, label, button, p{
     font-family: 'Saira Extra Condensed', sans-serif;
 }
 
@@ -10,6 +10,18 @@ body{
 .btn{
     background-color: #cb4154;
     border: none
+}
+
+p{
+    margin-bottom:0;
+    font-size: 0.75em;
+    color:gray;
+}
+
+#github a i{
+    color:#cb4154;
+    font-size: 1em;
+    padding:0
 }
 
 .btn:hover{
